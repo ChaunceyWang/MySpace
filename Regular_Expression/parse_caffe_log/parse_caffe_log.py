@@ -23,8 +23,9 @@ regex_train_output_alignment = re.compile('Train net output #2: loss-net3 = ([\.
 
 regex_test_output = re.compile('Test net output #(\d+): (\S+) = ([\.\deE+-]+)')
 regex_learning_rate = re.compile('lr = ([-+]?[0-9]*\.?[0-9]+([eE]?[-+]?[0-9]+)?)')
-##
-iteration = -1 # 
+
+iteration = -1
+
 ## save result
 SaveIter =[]
 SaveTrainLoss = []
